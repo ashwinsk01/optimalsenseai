@@ -1,3 +1,4 @@
 # Ignore all datasets in the data directory
 /data/symptom2disease/
-/data/disease_symptom_kaggle/ 
+/data/disease_symptom_kaggle/
+/data/disease_symptom_kaggle/Final_Augmented_dataset_Diseases_and_Symptoms.csv 
