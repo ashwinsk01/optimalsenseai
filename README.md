@@ -252,12 +252,6 @@ For urgent medical needs within 2-4 hours:
 | **Time to Recommendation** | <3 minutes | 1.8 minutes average |
 | **Appropriate Escalation Rate** | >95% safety | 98% accuracy |
 
-### **🎯 Quality Indicators**
-- **User Satisfaction**: 4.7/5.0 average rating
-- **Clinical Accuracy**: 96% appropriate care pathway recommendations
-- **Safety Record**: Zero missed high-acuity conditions in pilot
-- **System Reliability**: 99.8% uptime across WhatsApp integration
-
 ---
 
 ## 🚀 **Future Roadmap**
@@ -274,7 +268,7 @@ For urgent medical needs within 2-4 hours:
 - **Population Health Insights**: Community health trend identification and alerts
 - **Multi-Language Support**: Expanded accessibility for diverse UK populations
 
-### **🔗 NHS System Integration**
+### **🔗 ROADMAP: NHS System Integration**
 - **Electronic Health Record Integration**: Seamless information sharing with NHS systems
 - **GP Practice Connection**: Direct booking and information transfer capabilities
 - **Pharmacy Network**: Medication advice and local pharmacy recommendations
@@ -282,40 +276,3 @@ For urgent medical needs within 2-4 hours:
 
 ---
 
-## 🎉 **Getting Started**
-
-### **🔧 For Healthcare Organizations**
-1. **Contact our team** for pilot program enrollment
-2. **Integration planning** with existing NHS digital infrastructure  
-3. **Staff training** on AI triage support capabilities
-4. **Gradual rollout** with performance monitoring and optimization
-
-### **📱 For End Users**
-1. **Add WhatsApp number** to contacts
-2. **Send initial message** describing health concern
-3. **Follow guided assessment** with clear, simple questions
-4. **Receive care recommendation** with appropriate NHS contact information
-
-### **🛠️ For Developers**
-- **API Documentation**: Comprehensive integration guides available
-- **n8n Workflow Templates**: Pre-built healthcare automation workflows
-- **RAG Implementation**: Detailed setup instructions for medical knowledge bases
-- **Safety Protocols**: Clinical governance frameworks and safety checklists
-
----
-
-<div align="center">
-
-## 🌟 **Transform Healthcare Accessibility Today**
-
-*Ready to revolutionize patient triage and improve NHS efficiency?*
-
-**[Contact Our Team](#) | [View Demo](#) | [Read Documentation](#)**
-
----
-
-*Built with ❤️ for the NHS | Powered by Advanced AI | Secured for Patient Safety*
-
-**© 2025 AI Health Triage System - Improving Healthcare Access Through Innovation**
-
-</div>
