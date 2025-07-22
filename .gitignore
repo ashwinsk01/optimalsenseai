@@ -1,0 +1,3 @@
+# Ignore all datasets in the data directory
+/data/symptom2disease/
+/data/disease_symptom_kaggle/ 
