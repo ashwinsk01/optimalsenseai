@@ -1,11 +1,40 @@
-# 🏥 OptimalSense AI
-## *Intelligent, Multimodal Health Assessment for the NHS*
+# OptimalSense AI
 
-<div align="center">
+## System Architecture
 
-*Revolutionizing healthcare accessibility through intelligent triage and progressive assessment*
+```mermaid
+graph TD
+    subgraph "Data Preparation"
+        A["Kaggle Dataset (.csv)"] --> B["download_kaggle_disease_symptom.py"];
+        C["Symptom2Disease.csv"] --> D["upload_to_qdrant.py"];
+        B --> E["data/disease_symptom_kaggle"];
+        E --> D;
+    end
 
-</div>
+    subgraph "Vectorization & Storage"
+        D -- "Embeds & Uploads" --> F["Qdrant Cloud <br> 'optimalsense_rag' collection"];
+    end
+
+    subgraph "Retrieval Workflow"
+        G["User Query"] --> H["1. Embed Query <br> (OpenAI Node)"];
+        H --> I["2. Search Vectors <br> (Qdrant Node)"];
+        F -- "Fetches relevant context" --> I;
+        I --> J["3. Generate Answer <br> (OpenAI Node)"];
+        G --> J;
+        J --> K["Final Answer"];
+    end
+
+    style F fill:#f9f,stroke:#333,stroke-width:2px;
+    style K fill:#bbf,stroke:#333,stroke-width:2px;
+```
+
+This project sets up a Retrieval-Augmented Generation (RAG) system using n8n and Qdrant.
+
+### Core Components
+
+- **Data Ingestion**: Python scripts (`download_kaggle_disease_symptom.py` and `upload_to_qdrant.py`) prepare and upload symptom-disease datasets to a vector store.
+- **Vector Store**: Qdrant Cloud hosts the vectorized medical data in a collection named `optimalsense_rag`.
+- **RAG Pipeline (n8n)**: An n8n workflow that takes a user query, embeds it, searches Qdrant for relevant medical context, and uses an LLM to generate a final answer.
 
 ---
 
