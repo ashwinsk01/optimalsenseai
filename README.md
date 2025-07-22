@@ -1,5 +1,16 @@
 # OptimalSense AI
 
+---
+
+## 🌟 **Solution Overview**
+
+Our AI Health Triage System is a cutting-edge, **multimodal healthcare assistant** designed specifically for UK residents. Built with advanced **Retrieval-Augmented Generation (RAG)** technology, it provides intelligent preliminary health assessments through WhatsApp, helping users navigate the NHS system efficiently and safely.
+
+### **🎯 Mission Statement**
+*To provide accessible, intelligent, and empathetic health guidance that helps UK residents get to the right NHS care quickly through smart questioning and evidence-based recommendations.*
+
+---
+
 ## System Architecture
 
 ```mermaid
@@ -43,15 +54,6 @@ This project sets up a Retrieval-Augmented Generation (RAG) system using n8n and
 Scan the QR code below with your phone to start a conversation with the OptimalSense AI assistant on WhatsApp.
 
 ![OptimalSense WhatsApp Demo](demoqr.png)
-
----
-
-## 🌟 **Solution Overview**
-
-Our AI Health Triage System is a cutting-edge, **multimodal healthcare assistant** designed specifically for UK residents. Built with advanced **Retrieval-Augmented Generation (RAG)** technology, it provides intelligent preliminary health assessments through WhatsApp, helping users navigate the NHS system efficiently and safely.
-
-### **🎯 Mission Statement**
-*To provide accessible, intelligent, and empathetic health guidance that helps UK residents get to the right NHS care quickly through smart questioning and evidence-based recommendations.*
 
 ---
 
