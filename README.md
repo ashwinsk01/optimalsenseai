@@ -1,4 +1,4 @@
-# 🏥 AI Health Triage System
+# 🏥 OptimalSense AI
 ## *Intelligent, Multimodal Health Assessment for the NHS*
 
 <div align="center">
